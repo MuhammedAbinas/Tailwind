@@ -5,24 +5,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Construction Website</title>
      <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+     <link rel="stylesheet" href="./style.css">
 </head>
-<body class="m-0 p-0">
-    <div class="min-h-screen bg-[url('./image/image.png')] bg-cover bg-center">
-        <nav class="flex justify-between items-center px-8 py-4 bg-blue-200 bg-opacity-80">
-            <img src="./image/logo.png" class="w-12">
-
-            <ul class="flex gap-6 text-gray-700 font-semibold">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Services</a></li>
-                <li><a href="#">Project</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
-        </nav>
-        <div class="p-8 mt-48">
-            <h1 class="text-5xl font-bold text-gray-900 text-center">Welcome to Our Construction Company</h1>
-            <p class="text-gray-800 mt-4 text-center font-bold">We are a team of experienced professionals dedicated to delivering high-quality construction services.</p>
-            <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded mt-4 mx-auto block">Get Started</button>
+    <body class="m-0 p-0">
+        <div class="min-h-screen bg-[url('./image/image.png')] bg-cover bg-center">
+            <nav class="flex flex-col md:flex-row justify-between items-center px-8 py-4 bg-blue-200 bg-opacity-80">
+                <img src="./image/logo.png" class="w-12">
+                
+                <ul class="flex flex-col md:flex-row gap-6 text-gray-700 font-semibold">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Project</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="p-8  mt-48">
+                <h1 class="text-5xl font-bold text-gray-900 text-center">Welcome to Our Construction Company</h1>
+                <p class="text-gray-800 mt-4 text-center font-bold">We are a team of experienced professionals dedicated to delivering high-quality construction services.</p>
+                <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded mt-4 mx-auto block">Get Started</button>
+            </div>
         </div>
-    </div>
-</body>
+    </body>
 </html>
